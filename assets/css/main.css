@@ -126,7 +126,7 @@ figure {
 }
 
 code, kbd {
-  font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+  font-family: Consolas,Monaco,Andale Mono,monospace;
   background: var(--background-secondary);
   padding: 1px 6px;
   margin: 0 2px;
@@ -154,6 +154,7 @@ pre {
   }
 
   code {
+    font-feature-settings: normal;
     background: none !important;
     color: #ccc;
     margin: 0;
